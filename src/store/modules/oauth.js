@@ -24,7 +24,6 @@ export default {
         })
         .finally(() => {
           commit('loading/SET_LOADING', false, { root: false })
-          console.log('Done!')
         })
     }
   }
